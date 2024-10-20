@@ -12245,12 +12245,12 @@
   "faucets": [],
   "infoURL": "https://bit-rock.io"
 }, {
-  "name": "exSat Network",
+  "name": "exSat Mainnet",
   "chainId": 7200,
   "shortName": "xsat",
   "networkId": 7200,
   "nativeCurrency": {
-    "name": "BTC",
+    "name": "Bitcoin",
     "symbol": "BTC",
     "decimals": 18
   },
@@ -13268,7 +13268,7 @@
     "symbol": "IOTA",
     "decimals": 18
   },
-  "rpc": ["https://json-rpc.evm.iotaledger.net", "https://ws.json-rpc.evm.iotaledger.net"],
+  "rpc": ["https://json-rpc.evm.iotaledger.net", "wss://ws.json-rpc.evm.iotaledger.net"],
   "faucets": [],
   "infoURL": "https://www.iota.org"
 }, {
@@ -22138,6 +22138,19 @@
   "faucets": [],
   "infoURL": "https://www.rmrk.app/"
 }, {
+  "name": "Zebro Smart Chain",
+  "chainId": 786786,
+  "shortName": "zebro",
+  "networkId": 786786,
+  "nativeCurrency": {
+    "name": "Zebrocoin",
+    "symbol": "ZEBRO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zebrocoin.app", "https://rpc1.zebrocoin.app"],
+  "faucets": [],
+  "infoURL": "https://zebrocoin.app"
+}, {
   "name": "OctaSpace",
   "chainId": 800001,
   "shortName": "octa",
@@ -22267,6 +22280,19 @@
   "rpc": ["https://testnet-rpc.prmscan.org"],
   "faucets": ["https://faucet.prmscan.org"],
   "infoURL": "https://primalnetwork.org"
+}, {
+  "name": "exSat Testnet",
+  "chainId": 839999,
+  "shortName": "txsat",
+  "networkId": 839999,
+  "nativeCurrency": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-tst3.exsat.network"],
+  "faucets": [],
+  "infoURL": "https://exsat.network/"
 }, {
   "name": "RUNEVM Testnet",
   "chainId": 840000,
